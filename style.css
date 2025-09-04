@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5b942; /* fundo amarelo */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.text {
+  font-size: 5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.letter {
+  color: #4B0082; /* roxo */
+  opacity: 0;
+}
+
+.heart {
+  color: red;
+  font-size: 5.5rem;
+  opacity: 0;
+}
+
+.final {
+  margin-top: 2rem;
+  font-size: 3rem;
+  color: #4B0082;
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}
